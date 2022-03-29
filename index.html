@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>&lt;model-viewer&gt; template</title>
+    <title>010322</title>
     <meta charset="utf-8">
     <meta name="description" content="&lt;model-viewer&gt; template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,12 +11,12 @@
   </head>
   <body>
     <!-- <model-viewer> HTML element -->
-    <model-viewer bounds="tight" enable-pan src="ET23.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls environment-image="spruit_sunrise_1k_HDR.hdr" poster="poster.webp" shadow-intensity="1" autoplay skybox-image="spruit_sunrise_1k_HDR.hdr" min-camera-orbit="auto 0deg auto" max-camera-orbit="auto 95deg auto">
+    <model-viewer bounds="tight" src="ET23.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls environment-image="spruit_sunrise_1k_HDR.hdr" poster="poster.webp" shadow-intensity="1" autoplay skybox-image="spruit_sunrise_1k_HDR.hdr" min-camera-orbit="auto 0deg auto" max-camera-orbit="auto 95deg auto" camera-target="0.2776m 8.395m 0m" ar-placement="floor">
       <div class="progress-bar hide" slot="progress-bar">
           <div class="update-bar"></div>
       </div>
       <button slot="ar-button" id="ar-button">
-          View in your space
+          enter Fantasia
       </button>
       <div id="ar-prompt">
           <img src="ar_hand_prompt.png">
@@ -25,5 +25,6 @@
     <script src="script.js"></script>
     <!-- Loads <model-viewer> for browsers: -->
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<p text-align="center" >love from mim & dan xxxx</p>
   </body>
 </html>
